@@ -49,7 +49,8 @@ describe('The shimmed MySQL driver', function() {
       // No config, or it failed to parse. Try defaults.
       config = {
         host: 'localhost',
-        user: 'root'
+        user: 'root',
+        password: 'paytm@197'
       };
     }
 
